@@ -1,66 +1,47 @@
 
 
-
-.container-match {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-   
-    column-gap: 16px;
-    row-gap: 40px;
-  }
-
-
-  @media (max-width: 1000px) and (min-width:701px) {
-    .container-shop {
-      grid-template-columns: 1fr 1fr;
-    }
-    .hero h2{
-      font-size: 40px;
-    }
-  
-  }
-  
-  @media(min-width:1001px) {
-    .container-shop {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-    .hero h2{
-      font-size: 50px;
-    }
-  
-  }
-  
-  @media (max-width: 700px) {
-    .container-shop {
-      grid-template-columns: 1fr;
-    }
-  }
-
-  
-    .matches{
+  .container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    padding: 40px 0;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
 
-  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
   }
-  
-  .match {
-    width: 250px;
-    height: 150px;
-    margin: 10px;
-    border: 1px solid #ddd;
-    padding: 0px;
-  
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  
+
+  .score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 40px;
+    margin-bottom: 40px;
   }
-  .break{
-    padding-top: 100px;
+
+  .flag {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
   }
-  .date{
-    color: gray;
-    text-align: center; 
-    font-size: 15px;
+
+  .details {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  footer{
+    margin-top: 50px;
+   
   }
