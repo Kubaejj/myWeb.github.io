@@ -5,6 +5,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   background-color: #eee;
+
+
+
 }
 
 /* Header Styling */
@@ -83,17 +86,11 @@ header {
 
 footer {
   display: grid;
-
   column-gap: 16px;
   row-gap: 40px;
   background-color: #ffffff;
-
-
   grid-template-columns: 4fr 4fr 1fr;
-
-
 }
-
 
 
 .left-section {
