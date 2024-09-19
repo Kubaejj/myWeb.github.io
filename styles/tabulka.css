@@ -1,0 +1,133 @@
+#customers {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 15px 350px 15px 15px;
+    font-size: 1.2em;
+    
+  
+}
+
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #000000;
+    color: white;
+}
+
+
+tr img{
+    width: 50px;
+}
+
+
+.final-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.final-results-container {
+    display: grid;
+ 
+  
+  
+}
+@media  (max-width:800px ){
+    .final-results-container{
+    grid-template-columns: 1fr  ;
+ 
+    }
+    .final-result img{
+        height: 150px;
+        width: auto;
+    }
+    #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 15px 15px 15px 15px;
+        font-size: 1.2em;
+        
+      
+    }
+    
+}
+@media (min-width:800px ) and (max-width:1200px ){
+    .final-results-container{
+    grid-template-columns: 1fr 1fr  ;
+    }
+    .final-result img{
+        height: 250px;
+        width: auto;
+    }
+    #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 15px 15px 15px 15px;
+        font-size: 1.2em;
+        
+      
+    }
+    
+}
+@media (min-width:1200px) {
+   .final-result img{
+    width:auto;
+    height:350px;
+   }
+   .final-results-container{
+    grid-template-columns: 2fr 1fr 1fr ;
+   }
+}
+
+.final-result {
+ 
+  align-items: center;
+    margin-bottom: 30px;
+}
+
+.final-result img {
+
+  margin-bottom: 10px;
+
+}
+
+.final-result p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 10px;
+  
+}
+
+.standings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.standings h2 {
+  margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
